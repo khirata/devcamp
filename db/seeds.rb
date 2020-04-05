@@ -57,5 +57,3 @@ end
         name: "Technology #{technology}"
     )
 end
-
-puts "techtech"
