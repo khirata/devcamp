@@ -13,7 +13,7 @@ end
 
 10.times do |blog|
     Blog.create!(
-        title: "Tiele #{blog}",
+        title: "Title #{blog}",
         body: "Body #{blog}",
         topic_id: Topic.last.id
     )
